@@ -1,4 +1,16 @@
 let js = "amazing";
-if (js === "amazing") alert("JavaScrip is FUN!"); /*It should be alerted when the web page is excuted*/
+let numbers = 1;
+console.log(typeof numbers);
 
-console.log(40 + 8 + 23);
+
+
+let name = "Chris";
+let age = 27;
+let job = "Student";
+let nation = "Korea";
+
+/*using string template literals*/
+console.log(`My name is ${name}.\n 
+I'm ${age} years old.\n
+I'm a ${job}. \n
+I'm from ${nation}.`)
