@@ -31,3 +31,18 @@ console.log(Number(inputYear) + 18);   // 2009
 // type coercion
 console.log('10' - '4' - '3' - 2 + '5'); // 15
 //          int  - int - int - int(string) + (string) = 15
+
+
+/* five falsy values: 0, '', undefined, null, NaN */
+console.log(Boolean(0));          // false
+console.log(Boolean(''));         // false
+console.log(Boolean(undefined));  // false
+console.log(Boolean(null));       // false
+console.log(Boolean(NaN));        // false
+console.log(Boolean({}));         // ture
+console.log(Boolean('Chris'));    // ture
+
+
+/* strict & loose equality operator */
+console.log('18' == 18);  // ture
+console.log('18' === 18); // false
