@@ -46,3 +46,14 @@ console.log(Boolean('Chris'));    // ture
 /* strict & loose equality operator */
 console.log('18' == 18);  // ture
 console.log('18' === 18); // false
+
+
+/* Conditional operator */
+age >= 18 ?
+  console.log('I like to drink wine!') :
+  console.log('I like to drink water!');
+// first statement will be excuted when the codition is ture. 
+
+const ageLimitation = age >= 18 ? 'Okay' : 'No';
+console.log(ageLimitation);  // output: Okay
+console.log(`I like to drink ${age >= 18 ? 'wine' : 'water'}.`);
